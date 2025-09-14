@@ -1,0 +1,14 @@
+body { 
+    background-color:burlywood;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color :brown;
+
+}
+.para{
+    font-family:monospace;
+}
+#myptag{
+    font-weight: 900;
+}
