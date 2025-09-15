@@ -30,11 +30,8 @@ p {
     <p style="color:black;font-size: 50px; " id="">Select category :</p>
     <p class="para"><b>sub catergory </b></p>
     <span></span> -->
-
-    <style>
-        table,th,td{border: 1px solid black;}
-    </style>
-<h2>Daily expense of our life</h2>
+    
+<!-- <h2>Daily expense of our life</h2>
 <table style="width: 80%">
     <tr>
         <th>category</th>
@@ -47,7 +44,7 @@ p {
         <td>150</td>
         
     </tr>
-<tr>
+    <tr>
 
         <td>house_rent </td>
         <td>1000</td>
@@ -63,8 +60,46 @@ p {
      </tr>
     
      
-</table
+    </table>.
 
+    <h2>An ordered list of our family</h2>
+    <ol>
+        <li>brocolly</li>
+        <li>tomato</li>
+        <li>egg</li>
+        <li>milk</li>
+        <li>coffee</li>
+    </ol>
+
+    <h2>grocery list of our house</h2>
+    <p>here is the raw food_items</p> -->
+    <div style="width: 100%;text-align: center;height: 500px;background-color: antiquewhite;">
+    
+    <div style="background-color: aqua;width: 400px;height: 300px;padding: 10px;margin:10px">
+        <label for="category">Select Category:
+    </label>
+    <select name="category" id="category">
+        <option value="food">Food</option>
+        <option value="houseRent">House Rent</option> 
+        <option value= "utilityExpense">utility Expense</option>
+        <option value="CleaningItems">Cleaning Items</option>
+    </select><br>
+    <label for="amount">Amount : </label>
+  <input type="text" id="amount" name="amount"><br>
+  <label for="date">Date:</label>
+  <input type="date" id="currentdate" name="date">
+  <br>
+    <br><br>
+    </div>    
+    </div>
+    
+    <!-- <label for="food_items">select sub category:
+    </label>
+<select name="food_items" id="rawfood">
+    <option value="meatValue">Vegitable</option>
+    <option value="beefValue">Meet</option> 
+    <option value= "chicken1">Fruites</option>
+</select> -->
 
 </body>
 </html>
